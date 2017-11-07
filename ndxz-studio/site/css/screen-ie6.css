@@ -1,0 +1,13 @@
+ul#portfolio li { margin-right: 28px; }
+
+div#container { margin: 20px auto 0; overflow: hidden; width: 672px; }
+
+ul#filter { float: left; font-size: 16px; list-style: none; margin-left: 0; width: 100%; }
+
+ul#portfolio { float: left; list-style: none; margin-left: 0; width: 672px; }
+
+ul#portfolio a { display: block; width: 100%; }
+
+#content { margin: 10px 0 0 28px; height: 100%; }
+
+#logo, #logonav li a.blog, #logonav li a.blog:hover, #logonav li a.info, #logonav li a.info:hover { margin-left: 28px; }

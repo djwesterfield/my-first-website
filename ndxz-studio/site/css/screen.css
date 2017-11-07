@@ -1,0 +1,309 @@
+/*	
+	by DJ Westerfield 2010
+*/
+
+/* Portfolio Filter Stylesheet */
+
+/*****Reset*****/
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td { margin: 0; padding: 0;}
+
+body#section_id_home {overflow-x: hidden; }
+
+body { color: black; font: 11px/14px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif; }
+
+#text{	float: left;width: 240px;
+	margin-top: -1px;
+	margin-right: 60px;
+	left: 28px;
+}
+
+#section_id_Tear sheets #text{ 
+	width: 240px;
+	margin-top: -1px;
+	margin-right: 60px;
+	position: relative;
+	margin-left: 0;
+	display: block;
+	left: 0;
+}
+body#section_id_home #menu{ 
+	width: 240px;
+	z-index: 1;
+}
+
+
+/* Link Settings */
+
+a img {border:none;}
+a, a:link, a:visited {color: gray; text-decoration: none;}
+a:hover, a:active {color:#57a0e6; text-decoration: none;}
+current a {color: black;}
+
+/* End Link Settings */
+
+/* Logo/nav Settings */
+
+#logo { text-indent: -9999px;
+	background: transparent url(http://www.djwesterfield.com/images/djlogoleft.jpg) no-repeat 0;
+	height: 46px;
+	cursor:pointer;
+	text-decoration:none;
+	width: 190px;
+	margin-top: -5px;
+}
+
+#back-to-all{ 
+	background: transparent url() no-repeat 0;
+	height: 19px;
+	cursor:pointer;
+	text-decoration:none;
+	width: 80px;
+	position: absolute;
+	left: 300px;
+	top: 22px;
+}
+	
+#logonav {
+	list-style: none;
+	float: left;
+	}
+	#logonav li a {display: block;position: absolute;margin-left: 0;left: 0;margin-top: -4px;
+	background-image: url(http://www.djwesterfield.com/images/menu_all.png);
+	text-indent: -9999px;
+	width: 190px;height: 25px;
+	}
+		#logonav li a.blog {top: 45px;margin-left: 0;left: 0;
+		background-position: 0 -100px;
+		background-repeat: no-repeat;
+		}
+		#logonav li a.blog:hover{
+		background-position: 0 -25px;
+		background-repeat: no-repeat;
+		}
+		#logonav li a.info {top: 70px;margin-left: 0;left: 0;
+		background-position: 0 -125px;
+		background-repeat: no-repeat;
+		}
+		#logonav li a.info:hover {
+		background-position: 0 -50px;
+		background-repeat: no-repeat;}
+
+/* Menu Settings */
+
+#menu {
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100px;
+	width: 600px;
+	margin-left: 28px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 12px;
+	visibility: hidden;
+}
+
+#menu ul li.section-title { }
+
+/* End Menu Settings */
+
+#content {
+    margin: 110px 0 0 28px;
+}
+
+.container {
+	padding: 0;
+	margin: 0;
+}
+
+#content p { width: 500px; margin-bottom: 9px; }
+
+p {
+    margin: 0 0 5px 0;
+}
+
+#footer {
+	width: 200px;bottom: 0;left: 0;
+	position: fixed;
+	padding: 0 0 10px 28px;
+	color: #999;
+	font-size: 10px;line-height: 13px;
+}
+
+h1 {
+	text-align: left;
+	color: #333;
+	font: 10px/14px Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	color: #57a0e6;
+	font: 1.8em/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+h3 {
+	font: 1.45em/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: left;
+	color: #666;
+}
+
+h4 {
+	text-align: left;
+	color: #333;
+	font: 10px/14px Georgia, "Times New Roman", Times, serif;
+}
+
+/*****Custom Classes*****/
+
+.clearing { clear: both; }
+.last { margin-bottom: 0; }
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+
+/*****Basic Portfolio Definitions*****/
+
+div#container { overflow: hidden; width: auto;
+	position: absolute;
+	padding: 0 0 0 300px;
+	margin-top: -87px;
+}
+
+/****Filter****/
+
+#filter {
+	background-color: white;
+	width: 100%;
+	height: 69px;
+}
+ul#filter { float: left; list-style: none; margin-left: 0; }
+ul#filter li { 
+	float: left;
+	line-height: 16px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter li a{ text-decoration: none;
+	font: 16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	display: block;height: 19px;color: gray;zoom: 1;
+}
+ul#filter li a:hover {color: black;}
+ul#filter li.current a { font-size: 16px;border-bottom: 1px solid #57a0e6;}
+
+/****Portfolio****/
+
+#portfolio a { text-decoration: none; }
+#portfolio a:visited { text-decoration: none; }
+#portfolio a:hover { text-decoration: none; }
+p, ul, ol, dl, table { margin-bottom: 18px; }
+ul, ol, dd { margin-left: 36px; }
+
+#portfolio {
+	position: relative;
+}
+ul#portfolio { list-style: none; margin-left: -28px; width: auto;}
+ul#portfolio li { 
+	float: left; 
+	margin: 0 0 13px 28px;
+	width: 200px;
+	background-color: transparent;
+	padding: 0 0 5px;
+	overflow: hidden;
+}
+ul#portfolio a { display: block; width: 100%;
+	font: bold 11px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	color: #333;
+	overflow: hidden;
+}
+ul#portfolio a:hover { text-decoration: none;
+	color: #57a0e6;
+}
+ul#portfolio img { display: block; padding-bottom: 4px; }
+ul#portfolio a img:hover { text-decoration: none; opacity: 0.72; }
+
+
+/* Horizontal plugin settings */
+
+#img-container .captioning {color: black;font: 10px/12px Georgia, "Times New Roman", Times, serif;}
+#img-container .caption {color: gray;}
+
+/* galleriffics settings */
+
+#exhib-container {float: left;}
+#exhib-container div{position: absolute;}
+
+#gallery {
+	float: left;
+	position: relative;
+	left: 328px;
+}
+
+#caption.embox{
+	top: 438px;left: -300px;width: 240px;height: 40px;display: block;
+	font: 10px/12px Georgia, "Times New Roman", Times, serif;
+}
+#caption.embox i{color: gray;}
+
+#thumbs.navigation {
+	width: 690px;float: left;height: 70px;
+	background-color: rgba(255,255,255,0.2);
+	position: relative;
+	top: 482px;left: 300px;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+#thumbs ul {list-style-type:none; list-style-image:none; width:690px; float: left;
+	bottom: 0;top: 0;margin-left: 0;height: 50px;
+	position: absolute;
+	overflow: hidden;
+}
+#thumbs ul li { margin-right:6px; margin_bottom:10px;position: relative;float: left;}
+#thumbs img{height: 50px;overflow: hidden;}
+#thumbs a:hover{opacity: 0.9;}
+
+#controls {font: 17px/17px Arial, Helvetica, "Helvetica Neue", Geneva, sans-serif;height: 20px;top: 53px;z-index: 3;
+}
+#controls a{color: silver;height: 20px;	margin-right: 0px;
+	display: block;padding-right: 1px;
+}
+#controls a:hover{color: black;}
+
+.ss-controls a{text-align: left;
+	margin-left: 80px;padding-right: 1px;}
+
+#thumbs .controls .nav-controls a{display: inline;}
+
+
+#thumbs .pagination{font: 17px/17px Arial, Helvetica, "Helvetica Neue", Geneva, sans-serif;
+	height: 20px;display: block;float: left;
+	left: 117px;top: 50px;
+	}			
+
+div.pagination a {
+	cursor:pointer;display: inline-block;
+	color: black;
+	margin-top: 3px;padding-right: 1px;height: 20px;
+}
+div.pagination a:hover {
+	color: silver;
+}
+
+/* combo */
+
+#d-image { display: none;float: left;
+	position: absolute;
+}
+#d-image img { border: none; }
+.grow a {opacity: 1;}
+.grow a:hover {opacity: 0.67;}
+.grow img {
+	height: 130px;
+	display: inline;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: relative;
+}

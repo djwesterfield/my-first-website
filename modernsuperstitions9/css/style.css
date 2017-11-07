@@ -1,0 +1,115 @@
+/*
+Theme Name: Modern Superstitions Splash page
+Theme URI: http://modernsuperstitions.com/
+Description: Modern Superstitions
+Author: DJ Westerfield
+Author URI: http://djwesterfield.com/
+*/
+
+/* RESETS & BASIC PAGE SETUP */
+* 							{ margin:0; padding:0; }
+html 						{ overflow-y: scroll; }
+body 						{ font: 62.5% Georgia, serif; background: url(images/body-bg.png) top center repeat-x #000000;}
+ul 							{ list-style: none inside; }
+a 							{ outline: none; }
+a img 						{ border: none; }
+/* END RESET */
+
+/* TYPOGRAPHY */
+p, td						{ font-size: 1.2em; line-height: 1.2em; margin-bottom: 1.2em; }
+h1							{ font-weight: normal; font-size: 3.0em; }
+h2							{ font-weight: normal; font-size: 2.4em; color: #666; }
+h3							{ font-weight: normal; font-size: 2.0em; color: #666; }
+h1, h2						{ margin-bottom: 15px; }
+#footer p, #footer a		{ color: white; text-decoration: none; }
+#footer a:hover				{ text-decoration: underline; }
+p.metadata					{ background: #353430; padding: 2px; color: white; margin-bottom: 5px; }
+#topbar a					{ color: white; }
+/* END TYPOGRAPHY */
+
+
+/* TOOLBOX */
+.floatleft 					{ float: left; }
+.floatright 				{ float: right; }
+.clear 						{ clear: both; }
+.edit-button				{ display: block; width: 15px; height: 14px; text-indent: -9999px; float: left; margin-right: 5px;
+							  background: url(images/edit-button.jpg) center center no-repeat; }
+.delete-button				{ display: block; width: 11px; height: 12px; text-indent: -9999px; float: left; padding-top: 2px;
+							  background: url(images/delete-button.jpg) center center no-repeat; }
+.add-show-button			{ width: 118px; height: 36px; 
+							  text-indent: -9999px; display: block;
+							  background: url(images/new-show-button.jpg); }
+.center						{ text-align: center; }
+/* END TOOLBOX */
+
+
+
+/* STRUCTURE */
+#topbar						{ background: black; padding: 5px; position: absolute; top 0px; z-index: 9999; }
+#page-wrap 					{ width: 800px; margin: 0 auto; }
+#main-content				{ background: black; padding: 20px; margin-bottom: 20px; }
+#main-col					{ width: 550px; float: left; color:white; }	  
+#side-col					{ width: 175px; float: right; border: 8px solid #dfdfdf; padding: 5px; }
+#footer						{ background: url(images/footer-bg-wide.jpg) repeat-x; height: 144px; text-align: center; }
+#footer div					{ background: url(images/footer-bg.jpg) repeat-x; margin: 0 auto; padding-top: 50px; height: 94px; width: 800px; }
+/* END STRUCTURE */ 
+
+
+/* MENU */
+#fancymenu 					{ background: url(images/ms_bg2.png) no-repeat top center;
+							  position: relative; width: 900px; 
+							  padding-top: 512px; min-height: 115px; }
+#fancymenu ul#menu			{ padding-left: 175px; }
+#fancymenu ul#menu li		{ float: left; }
+#fancymenu ul#menu li a		{
+	display: block;
+	font-family: ArialBlack;
+	float: left;
+	height: 30px;
+	text-align: center;
+	padding: 20px 0 0 0;
+	color: white;
+	font-size: 2em;
+	overflow: hidden;
+	text-decoration: none;
+	z-index: 500;
+	position: relative;
+	visibility: visible;
+}
+#fancymenu ul#menu li#menu-home a { width: 111px; }
+#fancymenu ul#menu li#menu-shows a { width: 111px; }
+#fancymenu ul#menu li#menu-blog a { width: 111px; }
+#fancymenu ul#menu li#menu-contact a { width: 111px; }
+#fancymenu ul#menu li.background { background: url('images/menu-rollover-bg.png') top center repeat-x;
+								   z-index: 100; position: absolute; visibility: hidden; height: 500px; }
+/* END MENU */
+
+
+/* SHOW ROW */
+.show-row					{ border-bottom: 1px solid #ccc; }
+.show-row-head				{ font-style: italic; font-size: 1.4em; }
+.show-row-dates, .show-row-event-venue, .show-row-address, .show-row-time, .show-row-head, .show-row-admin		{ float: left; padding: 5px; font-size: 1.4em; }
+.show-row-dates				{ width: 100px; }
+.show-row-event-venue		{ width: 250px; }
+.show-row-address			{ width: 150px; }
+.show-row-time				{ width: 100px; }
+.show-row-admin				{ width: 100px; }
+.button						{ cursor: pointer; padding: 5px; font-size: 1.3em; }
+#message					{ padding: 5px; }
+.info						{ font-size: 1.2em; margin:2px 0 10px 0; }
+.info-error					{ font-size: 1.2em; border: 2px solid #fc0; background: #fffea1; }
+/* END SHOW ROW */
+
+
+/* FORMS */
+form						{ width: 425px }
+input, textarea				{ font-family: Georgia, serif; font-size: 14px; }
+input:focus, textarea:focus { background: #ccc; border: 1px solid black; }
+.input, input, textarea		{ border: 1px solid #ccc; padding: 4px; margin: 0 0 0 5px; }
+.input-error				{ background:#fffea1; border-color:#fc0; }
+label						{ display: block; width: 100px; float: left; }
+.single-field				{ clear: both; padding: 4px;}
+.single-field input,
+.single-field textarea		{ float: left; width: 300px; }
+.submit-button				{ float: right; margin-right: 6px; margin-top: 6px; }
+/* END FORMS */

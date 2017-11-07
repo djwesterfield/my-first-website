@@ -1,0 +1,9 @@
+[18-Jul-2010 18:51:42] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4912 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[18-Jul-2010 18:55:07] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3856 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[18-Jul-2010 18:56:00] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4128 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[18-Jul-2010 18:58:43] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4128 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[18-Jul-2010 18:59:32] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4128 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[18-Jul-2010 18:59:56] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4128 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[18-Jul-2010 19:01:18] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4128 bytes) in /home/djwester/public_html/indexhibitv070e/ndxz-studio/lib/media.php on line 220
+[10-Aug-2010 03:08:30] PHP Fatal error:  Class 'lang' not found in /home/djwester/public_html/ndxz-studio/common.php on line 73
+[11-Aug-2010 19:13:09] PHP Fatal error:  Class 'lang' not found in /home/djwester/public_html/ndxz-studio/common.php on line 73

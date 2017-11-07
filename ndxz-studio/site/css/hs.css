@@ -1,0 +1,39 @@
+.alt {/* modify this to add style to alternate sections*/}
+
+#arrows {
+	position: fixed;
+	left: 0px; bottom: 0px;
+	width: 90px;
+	cursor: pointer;
+	padding: 0 0 10px 328px;
+}
+
+#arrows ul {	
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+#arrows ul li {
+	margin: 0;
+	padding: 0;
+	display:inline;
+	width: 33px;
+	height: 17px;
+}
+
+#arrows ul li a{
+	margin-right: 7px;
+	float: left;
+	display: block;
+	width: 33px;
+	height: 17px;
+	overflow: hidden;
+	cursor: pointer;
+	text-indent: -9000px;
+}
+
+#arrows ul #left a {background: transparent url(left.png) no-repeat;}
+/*#arrows ul #left a:hover {background: transparent url(left_o.png) no-repeat;}*/
+#arrows ul #right a{background: transparent url(right.png) no-repeat;}
+/*#arrows ul #right a:hover{background: transparent url(right_o.png) no-repeat;}*/

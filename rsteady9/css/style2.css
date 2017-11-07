@@ -1,0 +1,464 @@
+/*
+Theme Name: RSM theme
+Theme URI: http://rocksteadyla.com/
+Description: Rock Steady Music
+Author: DJ Westerfield
+Author URI: http://djwesterfield.com/
+*/
+
+
+
+body 
+ {
+	background-image:url('');
+	background-repeat:repeat;
+	margin:0;
+	background-color: #FFF;
+	background-position: left top;
+	text-align: left;
+	color:#000;
+	font-family:Palatino Linotype,Palatino,Georgia;
+	font-size:14px;
+	margin:0px;
+	padding:0px;
+ }
+
+#index {
+	width:600px;
+	margin:60px auto 0 auto;
+	text-align:center;
+	font-size:18px;
+}
+
+#page {
+	width:850px;
+	margin:10px auto;
+	background-color: #fff;
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-left-width: 0px;
+	border-left-style: solid;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+}
+
+.topcart {
+	position:absolute;
+	top:15px;
+	right:208px;
+}
+
+.topcart img {border:px solid #000;}
+.topcart:hover {background:#;}
+
+#top {
+	padding-bottom:10px;
+	height: 200px;
+	position: absolute;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#page .nav.bottom tr td .top {
+	height: 100px;
+	width: 800px;
+	position: relative;
+	border-right-width: 0px;
+	border-right-style: none;
+	border-right-color: #fff;
+}
+#page .nav.bottom tr td .top a .contactimage {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+.nav {
+ width:100%;
+ margin:0 auto;
+}
+
+.nav td {
+	padding:0;
+	text-align:center;
+	border-top-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-width: 0px;
+	border-right-color: #fff;
+}
+
+.nav td a {
+ display:block;
+}
+
+.nav td a:hover {
+ background:#FFF;
+}
+
+.bottom td {
+ width:25%;
+}
+
+#main {
+ border-left:3px solid #fff;
+ border-right:2px solid #fff;
+ padding:10px;
+}
+
+
+/* SPLASH PAGE*/
+
+#index a {color:#000; text-decoration:none}
+
+
+
+/* INDEX PAGE*/
+
+#newsindex #main {
+	padding:0;
+}
+
+#newstable {
+	width:100%;
+	border-top-color: #fff;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	border-left-color: #fff;
+}
+
+#newstable td {
+	padding:10px;
+	vertical-align:top;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 0px;
+	border-left-width: 3px;
+}
+
+.indexleft {
+	width:150px;
+	background-color: #fff;
+}
+
+.indexmain {
+	background-color: #fff;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #fff;
+	border-right-color: #fff;
+	border-left-color: #fff;
+}
+.narrowcolumn {
+	border-top-width:3px;
+	border-top-color: fff;
+}
+
+.indexright {
+	width:125px;
+	text-align:center;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #fff;
+}
+#page .nav.bottom tr td a #logo {
+	text-align: center;
+	border-right-width: 6px;
+	border-right-style: solid;
+}
+
+.indexfeatitem {
+ font-size:12px;
+ margin:5px 0;
+}
+
+.indexfeatitem a {color:#000; text-decoration:none}
+.indexfeatitem a:visited {color:#000}
+.indexfeatitem a:hover {color:#000; text-decoration:underline}
+.indexfeatitem a:active {color:#777}
+
+#sidebar ul, #sidebar #events-calendar ul {
+ list-style-type:none;
+ list-style-image:none;
+ margin:0;
+ padding:0;
+}
+
+.widget ul li {
+ margin:5px 0 0 5px;
+}
+
+h2 {
+ margin:0;
+ padding:0 0 5px 0;
+ font-size:18px;
+ text-decoration:underline;
+}
+
+
+/* BAND PAGE*/
+
+#currentroster, #oldbands {
+ width:100%;
+}
+
+.subcatcell {
+ text-align:center;
+ vertical-align:top;
+}
+
+.band {
+ border:2px solid #000;
+ padding:5px;
+}
+
+.bandname {
+ padding-top:5px;
+}
+
+.manufacturer {
+ float:left;
+}
+
+.manufacturer img {
+ width:400px;
+}
+
+#bandinfo {
+ margin-left:420px;
+}
+
+.bandbio {
+ padding:10px 0;
+}
+
+.bandrelated {
+ padding-top:15px;
+}
+
+.feat-cell {
+ vertical-align:top;
+ text-align:center;
+ font-size:12px;
+}
+
+.featprice {
+ display:none;
+}
+
+/* DISCOGRAPHY PAGE*/
+
+#disco #main {
+ position:relative;
+ padding:0;
+ height:455px;
+}
+
+.disco {
+ float:left;
+ width:110px;
+ text-align:center;
+}
+
+#triggers {
+ float:left;
+ width:490px;
+ height:440px;
+ overflow:auto;
+ padding:5px 0 10px 0;
+}
+
+#triggers div {
+ padding:4px;
+}
+
+#zero {
+ display:none;
+ padding-top:5px;
+}
+
+.detail {
+ text-align:left;
+ position:absolute;
+ right:0;
+ top:0;
+ width:340px;
+ height:440px;
+ overflow:auto;
+ font-size:12px;
+}
+
+.detail h3 {
+ margin-top:0;
+ font-size:14px;
+}
+
+
+/* ITEM PAGE */
+
+#itemleft {
+ float:left;
+ width:275px;
+ text-align:center;
+}
+
+#itemright {
+ width:500px;
+ margin-left:280px;
+}
+
+#itemright h1 {
+ margin:0;
+ padding:0 0 5px 0;
+ font-size:18px;
+}
+
+.opt-ctrl, .opt-ctrl-req {
+ font-weight:bold;
+ padding-top:1em;
+}
+
+.option-desc {
+ font-weight:normal;
+}
+
+.option-desc p {
+ display:inline;
+ margin:0;
+ padding:0;
+}
+
+.options input {
+ vertical-align:middle;
+}
+
+.related {
+ padding-top:15px;
+}
+
+.item-error, .item-message {
+ font-weight:bold;
+}
+
+.item-message {
+ padding-top:1em;
+}
+
+/* SHOP PAGE */
+
+.preorder {
+ font-weight:bold;
+ padding-right:8px;
+ color:#666;
+ text-decoration:underline;
+}
+
+.notprice {
+ text-decoration: line-through;
+}
+
+.saleprice {
+ font-weight:bold;
+}
+
+.itemsbox a {color:#000; text-decoration:none}
+.itemsbox a:visited {color:#000}
+.itemsbox a:hover {color:#000; text-decoration:underline}
+.itemsbox a:active {color:#777}
+
+.sm-button, .cbutton, .itemmp3 {
+ border:2px solid #000;
+ margin:10px 15px 0 0;
+}
+
+.sm-button:hover, .cbutton:hover, .itemmp3:hover {
+ background:#777;
+}
+
+.item div {
+ display:inline;
+}
+
+.item input {
+ margin:0 5px;
+}
+
+.multioption {display:none}
+.itemsbox .multioption {display:inline; font-weight:bold;}
+.itemsbox .options {display:none}
+
+
+/* CART PAGES - see cart.css in CKGold folder */
+
+
+/* MEDIA PAGE */
+
+.video {
+ float:left;
+ width:50%;
+ text-align:center;
+ padding:10px 0;
+}
+
+
+/* LINKS PAGE */
+
+table.links {
+ width:100%;
+ margin-bottom:15px;
+}
+
+table.links td {
+ width:33%;
+ vertical-align:top;
+}
+
+
+
+/* BASIC FORMATTING */
+
+img {border:0px}
+img.border {border:solid 1px #fff}
+
+.center {text-align:left}
+.middle {margin-left:auto; margin-right:auto}
+.left {float:left; margin-right:5px}
+.right {float:right; margin-left:5px}
+.clear {clear:both;font-size:1px}
+
+a {color:#; text-decoration:underline}
+a:visited {color:#777}
+a:hover {color:#; text-decoration:none} <!--hover color for logo-->
+a:active {color:#c8d1a7}
+
+
+/* MISC WP FORMATTING */
+
+.postmetadata, .kjo-link, .post-edit-link {display:none}
+#newstableartist {
+	width:100%;
+	border-right-width: 2px;
+}
+#newstableartist td {
+	padding:10px;
+	vertical-align:top;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 3px;
+}

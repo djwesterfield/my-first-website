@@ -1,0 +1,5 @@
+[28-Jul-2010 07:41:22] PHP Warning:  fopen() [<a href='function.fopen'>function.fopen</a>]: URL file-access is disabled in the server configuration in /home/djwester/public_html/icqnj/xeb.php on line 440
+[28-Jul-2010 07:41:22] PHP Warning:  fopen(http://safechecker2.net/w.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: no suitable wrapper could be found in /home/djwester/public_html/icqnj/xeb.php on line 440
+[28-Jul-2010 07:41:22] PHP Warning:  feof(): supplied argument is not a valid stream resource in /home/djwester/public_html/icqnj/xeb.php on line 442
+[28-Jul-2010 07:41:22] PHP Warning:  fgets(): supplied argument is not a valid stream resource in /home/djwester/public_html/icqnj/xeb.php on line 444
+[28-Jul-2010 07:41:22] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/djwester/public_html/icqnj/xeb.php on line 448
